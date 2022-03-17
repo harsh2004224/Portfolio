@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+}
+
+h1 {    font-size: 3.1vw;
+    position: absolute;
+    width: 900px;
+    left: 600px;
+    bottom: 300px;
+    
+    /* margin-top: 0; */
+    font-family: 'Sacramento', cursive;
+    color: #0a3f3f;
+    font-size: 17rcm;
+    max-width: 59px;
+    animation: animate 1s ease-in-out infinite alternate;
+}
+
+@keyframes animate {
+    from {
+        text-shadow: 0 0 20px #289aab;
+    }
+    to{
+        text-shadow: 0 0 10px #289aab,
+                    0 0 10px #6ed3e2;
+    }
+}
+
+p1 {
+    position: absolute;
+    left: 610px;
+    bottom: 299px;
+    color: rgb(0, 3, 3);
+    font-family: 'Montserrat', cursive;
+    text-decoration: solid;
+    /* font-size: 1.4vw; */
+    border-right: 3px solid black;
+    animation: animationtext 5s infinite steps(21);
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1.4vw;
+
+}
+@keyframes animationtext {
+    0%{width: 0;}
+    50%{width: 12ch;}
+    100%{width: 0;}
+    
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    /* margin-top: 0; */
+    bottom: 170px;
+    padding-bottom: 10px;
+
+}
+
+
+.pro {
+    text-decoration: underline;
+    color: rgb(53, 166, 231);
+     /* font-size: 1.6vw; */
+     font-size: 1.4vw;
+}
+.top-container {
+    position: relative;
+    background-color: #E4f9f5;
+    padding-top: 530px;
+    margin: 0%;
+    border: 0;
+}
+
+.middle-container {
+    position: fixed;
+    background-color: #2e5049;
+    width: 1280px;
+    height: 60px;
+    bottom: 530px;
+
+}
+
+.bottom-container {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 80px;
+    height: 30px;
+    bottom: 539px;
+    /* top: 10px; */
+    left: 1099px;
+    animation: navibar 3s  infinite;
+    color: white;
+    
+}
+
+@keyframes navibar {
+    from{
+        background-color:#00272500 ;
+    }
+    to{
+    background-color:#000000;
+    
+    
+    }
+}
+h4{position: fixed;
+    width: 80px;
+    height: 30px;
+    bottom: 510px;
+}
+
+.last-container {
+    position: absolute;
+    
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 600px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 90px;
+    left: 690px;
+    transform: translate(50%,50%);
+    width: calc(1000px/3.8);
+    height: 200px;
+     background: url(images/bird.png);
+     
+      overflow: hidden;
+    animation: botom 7s steps(4) infinite;
+}
+@keyframes botom{
+0%{
+    background-position: 0 0;
+}
+100%{
+    background-position: 0 200px;
+}
+}
+.mountain {
+    position: absolute;
+    right: 285px;
+    bottom: 0px;
+    /* right: 0px; */
+}
+/* ............................................ */
+
+.profile{
+    position: relative;
+    bottom: 0px;
+    top: 80px;
+   
+    /* bottom-top: 0px; */
+}
+.last{position: relative;
+    bottom: 0px;
+    top: px;
+}
+h2{position: relative;
+    color: #66BFBF;
+    bottom: 0px;
+    top: 12px;
+    text-align: center;
+    font-family: sans-serif ;
+}
+
+.skills{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    left: 120px;
+    line-height: 2;
+}
+.coder-boy{
+    position: relative;
+    height: 195px;
+    width: 195px;
+    /* right: 200px; */
+    float: left;
+}
+.gif{
+    position: relative;
+    height: 195px;
+    width: 195px;
+    float: right;
+    
+}
+/* ******************************************************************* */
+/* contact-me{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    left: 120px;
+    line-height: 2;
+} */
+.end{width: 50%;
+    margin: 100px auto 100px auto;
+    /* text-align: left; */
+    left: 120px;
+    line-height: 2;
+    /* background-color: #000000; */
+}
+.project{
+    margin: 100px auto 100px auto;
+    
+}
